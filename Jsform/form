@@ -1,0 +1,3 @@
+  $( function() {
+    $( "#r-start, #r-end" ).datepicker({ dateFormat: 'dd-mm-yy' });
+  } );

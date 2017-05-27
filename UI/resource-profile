@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css-general/general.css">
+        <link rel="stylesheet" href="../css-general/form.css">
+        <link rel="stylesheet" href="../css-general/responsive.css">
+        
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="../js-general/form.js"></script>
+
+
+    </head>
+    
+    <body>
+        <header>
+            <div class="top-bar"></div>
+        </header>
+        
+        <div class="dashboard-menu">
+            
+        </div>
+        
+        <div class="real-estate bg-light-gray">
+            <div class="container">
+                <div class="col-xl-12 col-lg-12 col-md-11 col-sm-10 col-xs-9">
+                    <div class="form">  
+                        <div class="form-title">
+                            <h1>CREATE RESOURCE PROFILE</h1>
+                            <hr>
+                        </div>
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <fieldset>
+                                        <input type="text" id="r-name" tabindex="0" />
+                                        <label for="r-name">
+                                        <span data-text="r-name">Resource Name</span>
+                                        </label>
+                                    </fieldset>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <fieldset>
+                                        <input type="text" id="tcs-emp-id" tabindex="1" />
+                                        <label for="tcs-emp-id">
+                                        <span data-text="tcs-emp-id">TCS Employee ID</span>
+                                        </label>
+                                    </fieldset>
+                            </div>
+
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <fieldset>
+                                        <input type="text" id="pwc-mail-id" tabindex="2" />
+                                        <label for="pwc-mail-id">
+                                        <span data-text="pwc-mail-id">PwC e-mail ID</span>
+                                        </label>
+                                    </fieldset>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <fieldset>
+                                        <input type="text" id="pwc-ln-name" tabindex="3" />
+                                        <label for="pwc-ln-name">
+                                        <span data-text="pwc-ln-name">PwC Lotus Note Name</span>
+                                        </label>
+                                    </fieldset>
+                            </div>
+
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <fieldset>
+                                        <input type="text" id="guid" tabindex="4" />
+                                        <label for="guid">
+                                        <span data-text="guid">Employee GUID</span>
+                                        </label>
+                                    </fieldset>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <fieldset>
+                                        <input type="text" id="r-role" tabindex="5" />
+                                        <label for="r-role">
+                                        <span data-text="r-role">Resource Role</span>
+                                        </label>
+                                    </fieldset>
+                            </div>
+
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <fieldset>
+                                        <input type="text" id="role-group" tabindex="6" />
+                                        <label for="role-group">
+                                        <span data-text="role-group">Role Grouping</span>
+                                        </label>
+                                    </fieldset>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <fieldset>
+                                        <input type="text" id="los" tabindex="7" />
+                                        <label for="los">
+                                        <span data-text="los">Line of Service</span>
+                                        </label>
+                                    </fieldset>
+                            </div>
+
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <fieldset>
+                                        <input type="text" id="r-team" tabindex="9" />
+                                        <label for="r-team">
+                                        <span data-text="r-team">Team</span>
+                                        </label>
+                                    </fieldset>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <fieldset>
+                                        <input type="text" id="system" tabindex="8" />
+                                        <label for="system">
+                                        <span data-text="system">System</span>
+                                        </label>
+                                    </fieldset>
+                            </div>
+                            
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <fieldset>
+                                        <input type="text" id="r-owner" tabindex="10" />
+                                        <label for="r-owner">
+                                        <span data-text="r-owner">Owner</span>
+                                        </label>
+                                    </fieldset>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <fieldset>
+                                        <input type="text" id="r-location" tabindex="11" />
+                                        <label for="r-location">
+                                        <span data-text="r-location">Location</span>
+                                        </label>
+                                    </fieldset>
+                            </div>
+                            
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <fieldset>
+                                        <input type="text" id="r-start" tabindex="12" />
+                                        <label for="r-start">
+                                        <span data-text="r-start">Start Date</span>
+                                        </label>
+                                    </fieldset>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <fieldset>
+                                        <input type="text" id="r-end" tabindex="13" />
+                                        <label for="r-end">
+                                        <span data-text="r-end">End Date</span>
+                                        </label>
+                                    </fieldset>
+                            </div>
+                            
+                        <input type="button" value="Create Profile" class="red-button">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    
+    </body>
+</html>

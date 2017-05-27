@@ -1,0 +1,12 @@
+/*FORM*/
+@media (min-height: 745px){
+    .form{
+        height:100%;
+    }
+}
+
+@media (max-height: 700px){
+    .form {
+        height: 38em;
+    }
+}
